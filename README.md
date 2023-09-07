@@ -47,7 +47,7 @@ Valid get when status: pending
   <br/>
   Given: The user requires the pet status
   <br/>
-  When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
+  When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
   <br/>
   --
   <br/>
@@ -77,11 +77,12 @@ Valid get when status: pending
   }, {} ... ]
 
 ### Test case °3
+
 Valid get when status: sold
   <br/>
   Given: The user requires the pet status
   <br/>
-  When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
+  When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
   <br/>
   --
   <br/>
