@@ -15,11 +15,11 @@ Given: The user requires the pet status
 <br/>
 When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
 <br/>
---
+
 <br/>
 Query param findByStatus="available"
 <br/>
---
+
 <br/>
 Then: The response should be in the next json structure:
 <br/>
