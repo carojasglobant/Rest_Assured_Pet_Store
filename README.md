@@ -8,8 +8,8 @@ status: Query param <br/>
 Possible values: available, pending, sold
 
 
-Test case °1
-- Valid get when status: available
+### Test case °1
+Valid get when status: available
 <br/>
 Given: The user requires the pet status
 <br/>
@@ -42,8 +42,8 @@ Then: The response should be in the next json structure:
   "status": "available"
   }, {} ... ]
 
-Test case °2
-- Valid get when status: pending
+### Test case °2
+Valid get when status: pending
   <br/>
   Given: The user requires the pet status
   <br/>
@@ -76,8 +76,8 @@ Test case °2
   "status": "pending"
   }, {} ... ]
 
-Test case °3
-- Valid get when status: sold
+### Test case °3
+Valid get when status: sold
   <br/>
   Given: The user requires the pet status
   <br/>
