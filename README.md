@@ -41,7 +41,7 @@ Then: The response should be in the next json structure:
   ],
   "status": "available"
   }, {} ... ]
-- 
+
 Test case °2
 - Valid get when status: pending
   <br/>
@@ -76,7 +76,7 @@ Test case °2
   "status": "pending"
   }, {} ... ]
 
-Test case °2
+Test case °3
 - Valid get when status: sold
   <br/>
   Given: The user requires the pet status
