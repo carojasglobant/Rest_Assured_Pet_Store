@@ -1,5 +1,5 @@
 # Rest_Assured_Pet_Store
-a little practice to exercise rest assured
+A little practice to exercise rest assured
 
 ## findByStatus endpoint 
 Method: Get <br/>
@@ -43,7 +43,7 @@ Valid get when status: pending
 <br/>
 Given: The user requires the pet status
 <br/>
-When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
+When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
 <br/>
 Query param findByStatus="pending"
 <br/>
@@ -74,7 +74,7 @@ Valid get when status: sold
   <br/>
   Given: The user requires the pet status
   <br/>
-  When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
+  When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
   <br/>
   Query param findByStatus="sold"
   <br/>
