@@ -15,11 +15,7 @@ Given: The user requires the pet status
 <br/>
 When: A GET request is made to https://petstore.swagger.io/v2//pet/findByStatus with
 <br/>
-
-<br/>
 Query param findByStatus="available"
-<br/>
-
 <br/>
 Then: The response should be in the next json structure:
 <br/>
@@ -49,12 +45,8 @@ Given: The user requires the pet status
 <br/>
 When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
 <br/>
-
-<br/>
 Query param findByStatus="pending"
 <br/>
-
-  <br/>
   Then: The response should be in the next json structure:
   <br/>
   [ {
@@ -84,11 +76,7 @@ Valid get when status: sold
   <br/>
   When: A GET request is made to petstore.swagger.io/v2//pet/findByStatus with
   <br/>
-
-  <br/>
   Query param findByStatus="sold"
-  <br/>
-
   <br/>
   Then: The response should be in the next json structure:
   <br/>
